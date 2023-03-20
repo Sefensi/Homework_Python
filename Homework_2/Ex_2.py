@@ -9,9 +9,8 @@ if d >= 0:
     a = (s + d ** 0.5)/2
     b = s - a
     if a == round(b) and b == round(b): 
-        print(round(a)), round(b)
+        print(f"Загаданные числа {a}, {b}")
     else:
         print("Некорректные данные")
 else: 
     print("Некорректные данные")
-print(f"Загаданные числа {a}, {b}")
