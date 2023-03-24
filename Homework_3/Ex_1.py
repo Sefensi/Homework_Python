@@ -14,8 +14,6 @@ import random
 
 count_of_numbers = int(input("Введите длину строки: "))
 list_of_numbers = []
-count_of_OREL = 0  # OREL=0
-count_of_RESHKA = 0  # RESHKA=1
 for i in range(count_of_numbers):
     list_of_numbers.append(random.randint(0, count_of_numbers))
     # массив создаю через рандом чисел,
