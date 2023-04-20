@@ -16,9 +16,8 @@ entries = []
 
 for word in words:
     entries.append(0)
-for char in vowels:
-    entries.append(entries.pop() + word.count(char))
-
+    for char in vowels:
+        entries.append(entries.pop() + word.count(char))
 if len(set(entries)) == 1:
     print("-> Парам пам-пам") 
 else:
